@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Travel Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Explore The World</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#places">Famous Places</a></li>
+        <li><a href="#budget">Budget Calculator</a></li>
+        <li><a href="#tips">Travel Tips</a></li>
+    </ul>
+</nav>
+
+<section class="country-hero japan-hero">
+    <div class="country-hero-text">
+        <h2>Japan Travel Guide</h2>
+        <p>Explore Tokyo, Kyoto, Mount Fuji, cherry blossoms, temples, food, and culture.</p>
+    </div>
+</section>
+
+<section class="quick-info">
+    <div class="info-box">
+        <h3>Local Time</h3>
+        <p id="japanTime">Loading...</p>
+    </div>
+
+    <div class="info-box">
+        <h3>Weather</h3>
+        <p>Tokyo: Around 18°C – 28°C depending on season</p>
+    </div>
+
+    <div class="info-box">
+        <h3>Currency</h3>
+        <p>Japanese Yen (JPY)</p>
+    </div>
+</section>
+
+<section class="gallery-section">
+    <h2>Beautiful Views of Japan</h2>
+
+    <div class="gallery">
+        <img src="images/japan1.jpg" alt="Japan view 1">
+        <img src="images/japan2.jpg" alt="Japan view 2">
+        <img src="images/japan3.jpg" alt="Japan view 3">
+        <img src="images/japan4.jpg" alt="Japan view 4">
+        <img src="images/japan5.jpg" alt="Japan view 5">
+        <img src="images/japan6.jpg" alt="Japan view 6">
+        <img src="images/japan.jpg" alt="Japan main">
+    </div>
+</section>
+
+<section id="places" class="places-section">
+    
+</section>
+    <h2>Most Famous Places in Japan</h2>
+
+    <div class="place-cards">
+        <div class="place-card">
+            <h3>Mount Fuji</h3>
+            <p>Japan’s most famous mountain and a popular place for sightseeing and photography.</p>
+        </div>
+
+        <div class="place-card">
+            <h3>Tokyo</h3>
+            <p>A modern city with shopping, technology, food, and entertainment.</p>
+        </div>
+
+        <div class="place-card">
+            <h3>Kyoto</h3>
+            <p>Known for temples, traditional streets, gardens, and cultural experiences.</p>
+        </div>
+
+        <div class="place-card">
+            <h3>Osaka</h3>
+            <p>Famous for street food, nightlife, shopping, and Osaka Castle.</p>
+        </div>
+    </div>
+</section>
+
+<section id="budget" class="budget-section">
+    <h2>Japan Travel Budget Calculator</h2>
+
+    <div class="budget-box">
+        <label>Number of days:</label>
+        <input type="number" id="days" placeholder="Example: 7">
+
+        <label>Hotel cost per day (USD):</label>
+        <input type="number" id="hotel" placeholder="Example: 80">
+
+        <label>Food cost per day (USD):</label>
+        <input type="number" id="food" placeholder="Example: 35">
+
+        <label>Transport cost per day (USD):</label>
+        <input type="number" id="transport" placeholder="Example: 20">
+
+        <button onclick="calculateBudget()">Calculate Budget</button>
+
+        <h3 id="totalCost">Estimated cost: $0 USD</h3>
+    </div>
+</section>
+
+<section id="tips" class="tips-section">
+    <h2>Travel Tips for Japan</h2>
+
+    <ul>
+        <li>Carry some cash because not every small shop accepts cards.</li>
+        <li>Use public transport because trains are fast and reliable.</li>
+        <li>Learn a few simple Japanese phrases before travelling.</li>
+        <li>Respect local rules, especially in temples and public places.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Explore The World | Japan Travel Guide</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
