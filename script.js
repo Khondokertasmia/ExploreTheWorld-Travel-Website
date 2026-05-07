@@ -28,25 +28,25 @@ if (searchInput) {
 
 
 // Japan local time
-function updateJapanTime() {
+const timeElement = document.querySelector(".countryTime");
 
-    const japanTime = new Date().toLocaleTimeString("en-US", {
-        timeZone: "Asia/Tokyo",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit"
-    });
+if (timeElement) {
+    function updateCountryTime() {
+        const timezone = timeElement.getAttribute("data-timezone");
 
-    const timeElement = document.getElementById("japanTime");
+        const countryTime = new Date().toLocaleTimeString("en-US", {
+            timeZone: timezone,
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit"
+        });
 
-    if (timeElement) {
-        timeElement.textContent = japanTime;
+        timeElement.textContent = countryTime;
     }
+
+    setInterval(updateCountryTime, 1000);
+    updateCountryTime();
 }
-
-setInterval(updateJapanTime, 1000);
-
-updateJapanTime();
 
 
 // Budget calculator

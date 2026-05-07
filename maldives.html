@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maldives Travel Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Explore The World</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#places">Famous Places</a></li>
+        <li><a href="#budget">Budget Calculator</a></li>
+        <li><a href="#tips">Travel Tips</a></li>
+    </ul>
+</nav>
+
+<section class="country-hero maldives-hero">
+    <div class="country-hero-text">
+        <h2>Maldives Travel Guide</h2>
+        <p>Explore luxury resorts, beaches, clear water, and tropical islands.</p>
+    </div>
+</section>
+
+<section class="quick-info">
+    <div class="info-box">
+        <h3>Local Time</h3>
+        <p class="countryTime" data-timezone="Indian/Maldives">Loading...</p>
+    </div>
+    <div class="info-box">
+        <h3>Weather</h3>
+        <p>Male: Around 25°C – 32°C depending on season</p>
+    </div>
+    <div class="info-box">
+        <h3>Currency</h3>
+        <p>Maldivian Rufiyaa (MVR)</p>
+    </div>
+</section>
+
+<section class="gallery-section">
+    <h2>Beautiful Views of Maldives</h2>
+    <div class="gallery">
+        <img src="images/maldives1.jpg" alt="Maldives view 1">
+        <img src="images/maldives2.jpg" alt="Maldives view 2">
+        <img src="images/maldives3.jpg" alt="Maldives view 3">
+        <img src="images/maldives4.jpg" alt="Maldives view 4">
+        <img src="images/maldives5.jpg" alt="Maldives view 5">
+        <img src="images/maldives6.jpg" alt="Maldives view 6">
+    </div>
+</section>
+
+<section id="places" class="places-section">
+    <h2>Most Famous Places in Maldives</h2>
+    <div class="place-cards">
+        <div class="place-card">
+            <img src="images/maldives1.jpg" alt="Male">
+            <h3>Male</h3>
+            <p>The capital city of Maldives with markets, mosques, local food, and island culture.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/maldives2.jpg" alt="Vaadhoo Island">
+            <h3>Vaadhoo Island</h3>
+            <p>Famous for glowing beaches and beautiful night views.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/maldives3.jpg" alt="Maafushi">
+            <h3>Maafushi</h3>
+            <p>A popular local island with beaches, water activities, and guesthouses.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/maldives4.jpg" alt="Alimatha Island">
+            <h3>Alimatha Island</h3>
+            <p>Known for clear water, diving, snorkelling, and relaxing island views.</p>
+        </div>
+    </div>
+</section>
+
+<section id="budget" class="budget-section">
+    <h2>Maldives Travel Budget Calculator</h2>
+    <div class="budget-box">
+        <label>Number of days:</label>
+        <input type="number" id="days" placeholder="Example: 5">
+        <label>Hotel cost per day (USD):</label>
+        <input type="number" id="hotel" placeholder="Example: 160">
+        <label>Food cost per day (USD):</label>
+        <input type="number" id="food" placeholder="Example: 50">
+        <label>Transport cost per day (USD):</label>
+        <input type="number" id="transport" placeholder="Example: 40">
+        <button onclick="calculateBudget()">Calculate Budget</button>
+        <h3 id="totalCost">Estimated cost: $0 USD</h3>
+    </div>
+</section>
+
+<section id="tips" class="tips-section">
+    <h2>Travel Tips for Maldives</h2>
+    <ul>
+        <li>Check island transfer costs before booking accommodation.</li>
+        <li>Pack swimwear, sunscreen, and light clothing.</li>
+        <li>Respect local customs when visiting local islands.</li>
+        <li>Book water activities early during busy seasons.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Explore The World. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

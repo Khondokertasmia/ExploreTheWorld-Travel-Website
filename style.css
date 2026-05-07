@@ -320,3 +320,108 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+.quick-info {
+    background: linear-gradient(135deg, #fceabb, #f8b500);
+}
+
+.info-box h3 {
+    color: #0b3d91;
+}
+
+.places-section {
+    background: #f4f7fb;
+}
+
+.places-section h2,
+.gallery-section h2,
+.budget-section h2,
+.tips-section h2 {
+    color: #0b3d91;
+    margin-bottom: 25px;
+}
+
+.budget-box button {
+    margin-top: 10px;
+    background: #0b3d91;
+    color: white;
+}
+
+.budget-box button:hover {
+    background: #ffb703;
+    color: #222;
+}
+
+#totalCost {
+    margin-top: 20px;
+    color: #0b3d91;
+}
+
+.tips-section {
+    background: white;
+    border-radius: 20px;
+    margin: 40px 60px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.tips-section li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.france-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/france.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.italy-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/italy4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.australia-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/australia1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.canada-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/canada5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.maldives-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/maldives.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.southkorea-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/southkorea2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.switzerland-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/switzerland4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.thailand-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/thailand2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.turkey-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/turkey2.jpg");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thailand Travel Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Explore The World</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#places">Famous Places</a></li>
+        <li><a href="#budget">Budget Calculator</a></li>
+        <li><a href="#tips">Travel Tips</a></li>
+    </ul>
+</nav>
+
+<section class="country-hero thailand-hero">
+    <div class="country-hero-text">
+        <h2>Thailand Travel Guide</h2>
+        <p>Explore Bangkok, beaches, islands, street food, and tropical beauty.</p>
+    </div>
+</section>
+
+<section class="quick-info">
+    <div class="info-box">
+        <h3>Local Time</h3>
+        <p class="countryTime" data-timezone="Asia/Bangkok">Loading...</p>
+    </div>
+    <div class="info-box">
+        <h3>Weather</h3>
+        <p>Bangkok: Around 24°C – 35°C depending on season</p>
+    </div>
+    <div class="info-box">
+        <h3>Currency</h3>
+        <p>Thai Baht (THB)</p>
+    </div>
+</section>
+
+<section class="gallery-section">
+    <h2>Beautiful Views of Thailand</h2>
+    <div class="gallery">
+        <img src="images/thailand1.jpg" alt="Thailand view 1">
+        <img src="images/thailand2.jpg" alt="Thailand view 2">
+        <img src="images/thailand3.jpg" alt="Thailand view 3">
+        <img src="images/thailand4.jpg" alt="Thailand view 4">
+        <img src="images/thailand5.jpg" alt="Thailand view 5">
+        <img src="images/thailand6.jpg" alt="Thailand view 6">
+    </div>
+</section>
+
+<section id="places" class="places-section">
+    <h2>Most Famous Places in Thailand</h2>
+    <div class="place-cards">
+        <div class="place-card">
+            <img src="images/thailand1.jpg" alt="Bangkok">
+            <h3>Bangkok</h3>
+            <p>A busy capital city known for temples, shopping, nightlife, and street food.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/thailand2.jpg" alt="Phuket">
+            <h3>Phuket</h3>
+            <p>A popular island destination with beaches, resorts, and clear water.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/thailand3.jpg" alt="Krabi">
+            <h3>Krabi</h3>
+            <p>Famous for limestone cliffs, beaches, islands, and boat tours.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/thailand4.jpg" alt="Chiang Mai">
+            <h3>Chiang Mai</h3>
+            <p>A northern city known for temples, mountains, markets, and culture.</p>
+        </div>
+    </div>
+</section>
+
+<section id="budget" class="budget-section">
+    <h2>Thailand Travel Budget Calculator</h2>
+    <div class="budget-box">
+        <label>Number of days:</label>
+        <input type="number" id="days" placeholder="Example: 7">
+        <label>Hotel cost per day (USD):</label>
+        <input type="number" id="hotel" placeholder="Example: 45">
+        <label>Food cost per day (USD):</label>
+        <input type="number" id="food" placeholder="Example: 20">
+        <label>Transport cost per day (USD):</label>
+        <input type="number" id="transport" placeholder="Example: 10">
+        <button onclick="calculateBudget()">Calculate Budget</button>
+        <h3 id="totalCost">Estimated cost: $0 USD</h3>
+    </div>
+</section>
+
+<section id="tips" class="tips-section">
+    <h2>Travel Tips for Thailand</h2>
+    <ul>
+        <li>Respect temple rules and dress modestly when visiting religious places.</li>
+        <li>Try local street food but choose clean and busy food stalls.</li>
+        <li>Carry light clothes because the weather is usually hot.</li>
+        <li>Keep small cash for markets, transport, and local shops.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Explore The World. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

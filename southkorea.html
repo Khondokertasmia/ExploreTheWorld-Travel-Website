@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Korea Travel Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Explore The World</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#places">Famous Places</a></li>
+        <li><a href="#budget">Budget Calculator</a></li>
+        <li><a href="#tips">Travel Tips</a></li>
+    </ul>
+</nav>
+
+<section class="country-hero southkorea-hero">
+    <div class="country-hero-text">
+        <h2>South Korea Travel Guide</h2>
+        <p>Explore Seoul, K-pop culture, food, technology, and beautiful palaces.</p>
+    </div>
+</section>
+
+<section class="quick-info">
+    <div class="info-box">
+        <h3>Local Time</h3>
+        <p class="countryTime" data-timezone="Asia/Seoul">Loading...</p>
+    </div>
+    <div class="info-box">
+        <h3>Weather</h3>
+        <p>Seoul: Around -3°C – 30°C depending on season</p>
+    </div>
+    <div class="info-box">
+        <h3>Currency</h3>
+        <p>Korean Won (KRW)</p>
+    </div>
+</section>
+
+<section class="gallery-section">
+    <h2>Beautiful Views of South Korea</h2>
+    <div class="gallery">
+        <img src="images/southkorea1.jpg" alt="South Korea view 1">
+        <img src="images/southkorea2.jpg" alt="South Korea view 2">
+        <img src="images/southkorea3.jpg" alt="South Korea view 3">
+        <img src="images/southkorea4.jpg" alt="South Korea view 4">
+        <img src="images/southkorea5.jpg" alt="South Korea view 5">
+        <img src="images/southkorea6.jpg" alt="South Korea view 6">
+    </div>
+</section>
+
+<section id="places" class="places-section">
+    <h2>Most Famous Places in South Korea</h2>
+    <div class="place-cards">
+        <div class="place-card">
+            <img src="images/southkorea1.jpg" alt="Seoul">
+            <h3>Seoul</h3>
+            <p>A modern city known for shopping, food, technology, nightlife, and culture.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/southkorea2.jpg" alt="Busan">
+            <h3>Busan</h3>
+            <p>A coastal city famous for beaches, seafood, markets, and city views.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/southkorea3.jpg" alt="Jeju Island">
+            <h3>Jeju Island</h3>
+            <p>A beautiful island known for nature, waterfalls, beaches, and volcanic landscapes.</p>
+        </div>
+        <div class="place-card">
+            <img src="images/southkorea4.jpg" alt="Gyeongbokgung Palace">
+            <h3>Gyeongbokgung Palace</h3>
+            <p>A historic palace in Seoul and one of South Korea’s most famous cultural sites.</p>
+        </div>
+    </div>
+</section>
+
+<section id="budget" class="budget-section">
+    <h2>South Korea Travel Budget Calculator</h2>
+    <div class="budget-box">
+        <label>Number of days:</label>
+        <input type="number" id="days" placeholder="Example: 7">
+        <label>Hotel cost per day (USD):</label>
+        <input type="number" id="hotel" placeholder="Example: 80">
+        <label>Food cost per day (USD):</label>
+        <input type="number" id="food" placeholder="Example: 30">
+        <label>Transport cost per day (USD):</label>
+        <input type="number" id="transport" placeholder="Example: 15">
+        <button onclick="calculateBudget()">Calculate Budget</button>
+        <h3 id="totalCost">Estimated cost: $0 USD</h3>
+    </div>
+</section>
+
+<section id="tips" class="tips-section">
+    <h2>Travel Tips for South Korea</h2>
+    <ul>
+        <li>Use public transport because trains and buses are efficient.</li>
+        <li>Try local food such as Korean BBQ, bibimbap, and street snacks.</li>
+        <li>Learn simple Korean phrases for greetings and ordering food.</li>
+        <li>Visit both modern city areas and traditional cultural sites.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Explore The World. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
