@@ -313,3 +313,10 @@ footer {
     color: #555;
     line-height: 1.5;
 }
+footer {
+    background: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
